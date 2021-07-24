@@ -1,8 +1,8 @@
 # tf5
 
 ## AMI INSTANCE 
-- AWS LINUX T2 MICRO: ami-02de934ca4f3289e0
-- Ubuntu 20 T2 MICRO: ami-00399ec92321828f5
+- Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-0233c2d874b811deb
+- Ubuntu Server 20.04 LTS (HVM), SSD Volume Type - ami-00399ec92321828f5
 - USER DATA
 sudo yum update -y
 
@@ -90,4 +90,5 @@ https://learn.hashicorp.com/tutorials/terraform/eks
 
 https://www.youtube.com/watch?v=PWAnY-w1SGQ
 
-
+#### AWS Launch Templates
+https://blog.imfiny.com/imfiny-aws-terraform-2019-01-18-aws-launch-templates-html/
