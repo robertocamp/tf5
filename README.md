@@ -1,5 +1,11 @@
 # tf5
 
+## AMI INSTANCE 
+- AWS LINUX T2 MICRO: ami-02de934ca4f3289e0
+- Ubuntu 20 T2 MICRO: ami-00399ec92321828f5
+- USER DATA
+sudo yum update -y
+
 
 ## LINKS
  ### eks-related
@@ -25,6 +31,10 @@ https://www.youtube.com/watch?v=XQNNAeyMAkk
 https://youtu.be/8fi7uSYlOdc
 
 #### Terraform and WordPress
+
+#####
+https://www.bogotobogo.com/DevOps/DevOps-Terraform.php
+
 ##### Pablo:
 - https://www.youtube.com/watch?v=8_QSES_P67s&lc=UgwU2iVElD3sEMzrz_14AaABAg.9PnO8XlpDcn9PpjGNrf_P_
 
@@ -34,7 +44,7 @@ https://youtu.be/8fi7uSYlOdc
 - https://github.com/abhivaidya07/wordpress_rds/blob/master/script.sh
 
 
-- https://github.com/aleti-pavan/terraform-aws-wordpress
+
 - https://www.youtube.com/watch?v=49aOUHkvlgg
 
 
@@ -43,6 +53,17 @@ https://youtu.be/8fi7uSYlOdc
 ###### Github links with VPC code examples
 - https://github.com/dyordsabuzo/pablosspot/blob/main/ep-08/nginx/server.conf
 - https://github.com/iammuho/aws-terraform-workshop
+- https://github.com/aleti-pavan/terraform-aws-wordpress
+- https://github.com/abhivaidya07/wordpress_rds/blob/master/script.sh
+- https://github.com/ned1313
+- https://github.com/aleti-pavan/terraform-aws-wordpress/blob/master/files/userdata.sh
+- https://github.com/figurate
+
+##### YouTube:
+https://www.youtube.com/watch?v=M2zXLaRsUok
+https://www.youtube.com/watch?v=tQlMj_nyN6s&t=815s
+https://github.com/aleti-pavan/terraform-aws-wordpress
+https://www.youtube.com/watch?v=49aOUHkvlgg
 
 ##### MEDIUM:
 - https://medium.com/muhammet-arslan/create-a-secure-and-h-a-vpc-on-aws-with-terraform-71b9b0a61151
@@ -56,7 +77,7 @@ https://github.com/nelg/terraform-aws-acmdemo
 
 #### Terraform Variables
 - https://upcloud.com/community/tutorials/terraform-variables/
-
+- https://learn.hashicorp.com/tutorials/terraform/aws-variables
 
 https://www.padok.fr/en/blog/aws-eks-cluster-terraform
 
