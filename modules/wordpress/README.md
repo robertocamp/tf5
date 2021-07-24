@@ -32,7 +32,10 @@
         * The Amazon Linux Apache document root is /var/www/html, which by default is owned by root
         * To allow the ec2-user account to manipulate files in this directory, you must modify the ownership and permissions of the directory.
     2.  Change the group ownership of /var/www and its contents to the apache group
-    3.  To add group write permissions, recursively change the file permissions of /var/www and its subdirectories:
+    3.  To add group write permissions, recursively change the file permissions of /var/www and its subdirectories
+    4. To add group write permissions and to set the group ID on future subdirectories, change the directory permissions of /var/www and its subdirectories.
+    5. To add group write permissions, recursively change the file permissions of /var/www and its subdirectories
+    
     > RESULT: Now, ec2-user (and any future members of the apache group) can add, delete, and edit files in the Apache document root, enabling you to add content, such as a static website or a PHP application.  Complete User Data script:
 
 ```
