@@ -35,7 +35,7 @@
     3.  To add group write permissions, recursively change the file permissions of /var/www and its subdirectories
     4. To add group write permissions and to set the group ID on future subdirectories, change the directory permissions of /var/www and its subdirectories.
     5. To add group write permissions, recursively change the file permissions of /var/www and its subdirectories
-    
+
     > RESULT: Now, ec2-user (and any future members of the apache group) can add, delete, and edit files in the Apache document root, enabling you to add content, such as a static website or a PHP application.  Complete User Data script:
 
 ```
@@ -53,3 +53,7 @@ sudo find /var/www -type f -exec chmod 0664 {} \;
 sudo echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
 ```
 
+## LINKS
+https://serge.frezefond.com/2018/11/using-terraform-to-provision-a-managed-mariadb-server-in-aws/
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/hosting-wordpress.html
